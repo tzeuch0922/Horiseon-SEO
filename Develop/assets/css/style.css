@@ -1,3 +1,4 @@
+/* global styles */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -12,6 +13,18 @@ p {
     font-size: 16px;
 }
 
+/* generic class styles */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* header styles */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -50,6 +63,7 @@ p {
     text-decoration: none;
 }
 
+/* hero styles */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,23 +73,14 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
+/* services styles */
+.services {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.content-article {
+.services-article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -84,15 +89,16 @@ p {
     color: #ffffff;
 }
 
-.content-article img {
+.services-article img {
     max-height: 200px;
 }
 
-.content-article h2 {
+.services-article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* benefits styles */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -120,6 +126,7 @@ p {
     max-width: 150px;
 }
 
+/* footer styles */
 .footer {
     padding: 30px;
     clear: both;
